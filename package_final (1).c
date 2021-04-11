@@ -75,7 +75,7 @@ void generate_subset(int s[],int size,int target_sum,int pid)
 
 void options()
 {
-	printf("\nUSAGE:logparse -h -i <input_file_name> -o <output_file_name> -t <time_in_seconds>\nARGUMENTS FOR OPTIONS ARE OPTIONAL\n\n");
+	printf("\nUSAGE:logparse -h -i <input_file_name> -o <output_file_name> -t <time_in_seconds>\nARGUMENTS FOR OPTIONS ARE REQUIRED WHEN OPTION IS SPECIFIED\n\n");
 }
 
 int main(int argc,char *argv[])
